@@ -3,19 +3,14 @@ package pl.javastart.task;
 public class Calculator {
 
     boolean isEven(int num) {
-        if (num % 2 == 0) {
-            return true;
-        } else {
-            return false;
-        }
+
+        boolean isEven = num % 2 == 0;
+        return isEven;
     }
 
     boolean isOdd(int num) {
-        if (num % 2 != 0) {
-            return true;
-        } else {
-            return false;
-        }
+        boolean isOdd = num % 2 != 0;
+        return isOdd;
     }
 
     double circleField(double r) {
